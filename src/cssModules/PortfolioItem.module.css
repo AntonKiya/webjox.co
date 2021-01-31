@@ -1,0 +1,189 @@
+.portItem {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #404040;
+    margin-bottom: 20px;
+}
+
+.portItem:first-of-type {
+    margin-top: 20vh;
+}
+
+.portTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.portTitle {
+    font-family: "Old Car";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.PortDescItemContainer {
+    opacity: 0;
+    transition: .3s;
+}
+.PortDescItemContainer2 {
+    opacity: 1;
+    transition: .4s;
+}
+
+.portDesc {
+    margin-top: 30px;
+    font-family: "Old Car";
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 60px;
+}
+
+.portDescContainer {
+    height: 0px;
+    transition: .5s;
+    opacity: 0;
+}
+
+.portDescContainer * {
+    display: none;
+}
+
+.show {
+    height: 26vh;
+    opacity: 1;
+    transition: .3s;
+}
+
+
+.card_link {
+    font-family: "Old Car";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #691CFF;
+    padding-bottom: 15px;
+}
+
+.brif {
+    background: url("../images/arrow.svg") no-repeat right center;
+    display: inline-block;
+}
+
+.brifButton {
+    display: none;
+}
+
+@media screen and (max-width: 1440px){
+
+    .portItem:first-of-type {
+        margin-top: 13.5vh;
+    }
+
+    .portItem {
+        margin-bottom: 18px;
+    }
+
+    .portTitle {
+        font-size: 51px;
+        line-height: 61px;
+    }
+
+    .portImg {
+        max-width: 78px;
+        max-height: 78px;
+    }
+
+    .portDesc {
+        margin-top: 20px;
+        font-family: "Old Car";
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+
+    .portDescContainer {
+        height: 0px;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .portDescContainer * {
+        display: none;
+    }
+
+    .show {
+        height: 29vh;
+        opacity: 1;
+        transition: .3s;
+    }
+
+
+}
+
+@media screen and (max-width: 425px){
+
+    .portItem:first-of-type {
+        margin-top: 20px;
+    }
+
+    .portItem {
+        padding-bottom: 10px;
+        margin-bottom: 16px;
+    }
+
+    .portTitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .portImg {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .portDesc {
+        margin-top: 10px;
+        font-family: "Old Car";
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brif {
+        display: none;
+    }
+
+    .brifButton {
+        display: block;
+        width: 100%;
+        border: none;
+        background: #691CFF;
+        color: white;
+        padding: 13px 0px;
+        font-family: "Old Car Bold";
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+    .portDescContainer {
+        height: 0px;
+        transition: .3s;
+        opacity: 0;
+    }
+
+    .portDescContainer * {
+        display: none;
+    }
+
+    .show {
+        height: 57vh;
+        opacity: 1;
+        transition: .5s;
+    }
+
+}

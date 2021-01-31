@@ -1,0 +1,208 @@
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.titlePage {
+    margin-top: 142px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #404040;
+}
+
+.title {
+    font-family: "Old Car";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #404040;
+}
+
+.infoContainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+}
+
+
+.spoilerContainer {
+    padding-bottom: 40px;
+}
+
+.subtitleContainer {
+    padding-bottom: 40px;
+}
+
+.subtitle {
+    font-family: "Old Car";
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-family: "Old Car";
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: "Old Car Bold";
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.date {
+    font-family: "Old Car Bold";
+    font-size: 18px;
+    line-height: 27px;
+    color: #BBBBBB;
+}
+
+
+.card {
+    border-bottom: 1px solid #404040;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.nextArrticleMob {
+    display: none;
+}
+
+.readNext {
+    font-family: "Old Car Bold";
+    color: #691CFF;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.nextArtName {
+    font-family: "Old Car";
+    font-size: 36px;
+    line-height: 54px;
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper {
+        width: 86vw;
+        margin: 0 auto;
+    }
+    .titlePage {
+        margin-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .desc {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .subtitleContainer {
+        display: none;
+    }
+
+    .add {
+        border-top: 1px solid #404040;
+        padding-top: 20px;
+    }
+
+    .nextArtName {
+        font-size: 28px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        font-family: "Old Car Bold";
+        color: #691CFF;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .subtitle {
+        display: none;
+    }
+    .titlePage {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+    .back {
+        display: none;
+    }
+    .card {
+        border: none;
+        margin-bottom: 20px;
+    }
+    .desc {
+       font-size: 12px;
+        line-height: 18px;
+    }
+    .add {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+    .name {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .date {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .readNext {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .nextArtName {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .infoText {
+        order: 2;
+    }
+    .spoilerContainer {
+        order: 1;
+        padding-bottom: 20px;
+    }
+    .nextArrticle{
+        display: none;
+    }
+    .nextArrticleMob {
+        display: block;
+    }
+    .articleMobButton {
+        display: block;
+        font-family: "Old Car";
+        font-size: 12px;
+        background-color: #691CFF;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        padding: 13px 0px;
+        color: white;
+        margin-top: 11px;
+    }
+}

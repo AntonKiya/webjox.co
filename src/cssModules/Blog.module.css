@@ -1,0 +1,75 @@
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.articleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 90px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+    margin-top: -20px;
+    overflow: scroll;
+}
+
+.tags::-webkit-scrollbar {
+    width: 0;
+}
+
+.tagItem {
+    font-family: "Old Car";
+    padding: 10px 20px;
+    border: 1px solid #404040;
+    border-radius: 30px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.tagItem:last-child {
+    margin-right: 0;
+}
+
+
+@media screen and (max-width: 1440px){
+    .wrapper {
+        width: 86vw;
+    }
+
+    .articleContainer {
+        column-gap: 80px;
+    }
+
+    .tags {
+        margin-bottom: 40px;
+    }
+
+    .tagItem {
+        font-family: "Old Car";
+        padding: 10px 20px;
+        border: 1px solid #404040;
+        border-radius: 30px;
+        font-size: 17px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .wrapper {
+        width: 90vw;
+    }
+    .articleContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+    }
+
+    .tagItem {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+}

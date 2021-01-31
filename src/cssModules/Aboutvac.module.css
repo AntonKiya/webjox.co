@@ -1,0 +1,146 @@
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Old Car";
+    font-weight: 500;
+    font-size: 64px;
+    font-style: normal;
+    margin-top: 120px;
+    border-bottom: 0.01px solid #404040;
+    padding-bottom: 20.19px;
+    margin-bottom: 40px;
+    color: #404040;
+}
+
+.titleMob {
+    display: none;
+}
+
+.purple{
+    color: #691CFF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.span {
+    display: block;
+    font-family: "Old Car";
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #404040;
+}
+
+.offerEmail {
+    border: 1px solid #404040;
+}
+
+.offerContent {
+    border: 10px solid #F9F2B2;
+    padding: 23px 203px 23px 23px;
+    background-color: white;
+}
+
+.subtitle {
+    font-family: "Old Car Bold";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #404040;
+}
+
+.emailTitle {
+    font-family: "Old Car";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    color: #691CFF;
+}
+
+.task,
+.expectations,
+.add_expect,
+.whatoffer {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper{
+        max-width: 86vw;
+    }
+    .task,
+    .expectations,
+    .add_expect,
+    .whatoffer {
+        margin-bottom: 40px;
+    }
+    .title {
+        font-size: 51px;
+        margin-top: 80px;
+    }
+    .subtitle {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .span {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .emailTitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .title {
+        display: none;
+    }
+    .titleMob {
+        display: block;
+        font-family: "Old Car";
+        font-weight: 500;
+        font-size: 24px;
+        font-style: normal;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: #404040;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .task,
+    .expectations,
+    .add_expect {
+        margin-bottom: 16px;
+    }
+    .subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    .span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .offerContent {
+        border: 10px solid #F9F2B2;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .emailTitle {
+        margin-bottom: 16px;
+    }
+}

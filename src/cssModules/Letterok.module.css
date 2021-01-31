@@ -1,0 +1,185 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+.border {
+    width: 44vw;
+    height: 54vh;
+    border: 1px solid #404040;
+    margin: 0 auto;
+    margin-top: 14%;
+}
+
+.content {
+    border: 10px solid #F9F2B2;
+    height: 100%;
+    padding: 30px;
+}
+
+.text {
+    position: absolute;
+    z-index: 1;
+}
+
+.title {
+    font-family: "Old Car";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 61px;
+    margin-bottom: 40px;
+    z-index: 2;
+}
+
+.desc{
+    top: 601px;
+    font-family: "Old Car";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 40px;
+    color: #404040;
+}
+
+.purp {
+    color: #691CFF;
+}
+
+.pter {
+    top: 20.2vh;
+    left: 40.6vw;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.card_link {
+    font-family: "Old Car";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #691CFF;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #404040;
+}
+
+.brif {
+    background: url("../images/arrow.svg") no-repeat right center;
+    display: inline-block;
+}
+
+.brifButton {
+    display: none;
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper{
+        max-width: 84vw;
+    }
+    .border {
+        width: 49vw;
+        height: 56vh;
+
+    }
+    .title {
+        font-size: 51px;
+        line-height: 61px;
+        margin-bottom: 30px;
+    }
+    .desc{
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    .card_link {
+        font-family: "Old Car";
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        padding-right: 50px;
+        text-decoration: none;
+        color: #691CFF;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #404040;
+    }
+    .pter {
+        top: 17.7vh;
+        left: 38vw;
+        width: 49vw;
+        height: 54vw;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .border {
+        width: 49vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 700px){
+    .border {
+        width: 49vw;
+        height: 62vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .wrapper{
+        max-width: 90vw;
+    }
+    .border {
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+    }
+    .content {
+        padding: 0;
+        width: 100%;
+        border: none;
+    }
+    .text {
+        position: unset;
+        margin-top: 40px;
+    }
+    .title {
+        font-family: "Old Car";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 16px;
+        z-index: 2;
+    }
+    .desc{
+        font-family: "Old Car";
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .pter {
+        position: unset;
+        width: 100%;
+        margin-bottom: 64px;
+    }
+    .brif {
+        display: none;
+    }
+    .brifButton {
+        display: block;
+        width: 100%;
+        border: none;
+        background: #691CFF;
+        color: white;
+        padding: 13px 0px;
+        font-family: "Old Car Bold";
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+}

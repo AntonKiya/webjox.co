@@ -1,0 +1,36 @@
+
+.wrapper {
+    max-width: 80vw;
+}
+
+.title {
+    font-family: "Old Car";
+    font-weight: 500;
+    font-size: 64px;
+    font-style: normal;
+    margin-top: 120px;
+    border-bottom: 0.01px solid #404040;
+    padding-bottom: 20.19px;
+    margin-bottom: 40px;
+    color: #404040;
+}
+
+@media screen and (max-width: 1440px){
+
+    .title{
+        font-size: 51px;
+        padding-bottom: 10px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 425px){
+    .title {
+        font-family: "Old Car Bold";
+        color: #691CFF;
+        margin-top: 40px;
+        font-size: 24px;
+        border: none;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+}

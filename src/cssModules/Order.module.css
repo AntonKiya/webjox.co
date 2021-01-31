@@ -1,0 +1,374 @@
+.wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.title {
+    font-family: "Old Car";
+    font-weight: 500;
+    font-size: 64px;
+    font-style: normal;
+    margin-top: 120px;
+    border-bottom: 0.01px solid #404040;
+    padding-bottom: 20.19px;
+    margin-bottom: 40px;
+    color: #404040;
+}
+
+.titleMob{
+    display: none;
+}
+
+.imgMob {
+    display: none;
+}
+
+.purple{
+    color: #691CFF;
+}
+
+.descContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.descItem {
+    max-width: 700px;
+}
+
+.descItem_title {
+    font-family: "Old Car Bold";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #404040;
+}
+
+.descItem_p {
+    font-family: "Old Car";
+    font-size: 20px;
+    line-height: 30px;
+    color: #404040;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 4.5vw;
+}
+
+.paramsCheck {
+    display: none;
+}
+
+.switch {
+    width: 58px;
+    height: 30px;
+    padding: 3px;
+    background-color: #CACFD5;
+    border-radius: 23px;
+    transition: .4s;
+}
+
+.switchSlider {
+    width: 26px;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.switchActive {
+    transition: .4s;
+    background-color: #691CFF;
+}
+
+.switchSliderActive {
+    transition: .4s;
+    margin-left: 50%;
+}
+
+.formCard {
+    border-radius: 4px;
+    background-color: white;
+}
+
+.cardTitle {
+    font-family: "Old Car Bold";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #404040;
+    margin-bottom: 40px;
+}
+
+
+.checkContainer {
+    font-family: "Old Car";
+    font-size: 20px;
+    line-height: 30px;
+    color: #404040;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.checkContainer:nth-of-type(3) {
+    margin-bottom: 105px;
+}
+.checkContainer:nth-of-type(4) {
+    margin-bottom: 0;
+    color: #691CFF;
+}
+
+.formCard:not(:last-child) {
+    padding: 30px 40px;
+}
+
+.formCard:nth-child(3) {
+    border: 1px solid #404040;
+}
+
+.border {
+    border: 9px solid #F9F2B2;
+    padding: 14px 30px 32px 30px;
+    height: 100%;
+}
+
+.persDataCheck {
+    transform:scale(1.5);
+    margin-right: 14px;
+}
+
+.cardInput{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #404040;
+    margin-bottom: 16px;
+    min-width: 100%;
+}
+
+.cardInput {
+    font-family: "Old Car";
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cardInput:nth-of-type(3) {
+    margin-bottom: 34px;
+}
+
+input::placeholder {
+        font-family: "Old Car";
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 5px;
+}
+
+.persData {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 35px;
+}
+
+.persDataDesc {
+    font-family: "Old Car";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #404040;
+}
+
+.button {
+    background-color: #691CFF;
+    font-family: "Old Car Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    padding: 11px 31px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper{
+        max-width: 84vw;
+    }
+    .title {
+        font-size: 49px;
+        margin-top: 80px;
+    }
+    .select {
+        font-size: 17px;
+    }
+    .descContainer {
+    }
+    .descItem {
+        max-width: 560px;
+    }
+    .formCard {
+        min-width: 24vw;
+    }
+    .formCard:not(:last-child) {
+        padding: 20px 30px;
+    }
+    .switch {
+        max-width: 48px;
+        max-height: 26px;
+    }
+    .switchSlider {
+        max-width: 21px;
+        max-height: 20px;
+    }
+    .border {
+        padding: 12px 30px 30px 30px;
+    }
+    .cardTitle {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+    .checkContainer {
+        font-size: 17px;
+        margin-bottom: 16px;
+    }
+    .checkContainer:nth-of-type(3) {
+        margin-bottom: 80px;
+    }
+    .cardInput{
+        border: none;
+        border-bottom: 1px solid #404040;
+        margin-bottom: 12px;
+        min-width: 100%;
+    }
+    .button {
+        background-color: #691CFF;
+        font-size: 14px;
+        padding: 8px 36px;
+    }
+    .descContainer{
+
+        margin-bottom: 20px;
+    }
+    .form {
+        column-gap: 4vw;
+    }
+    .descItem_title {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 12px;
+    }
+    .descItem_p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .persData {
+        margin-bottom: 13px;
+    }
+    .persDataDesc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    .title {
+        display: none;
+    }
+
+    .cardTitle {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .formCard:first-of-type .cardTitle{
+        color: #F9F2B2;
+        text-shadow: #404040 1px 1px 0, #404040 -1px -1px 0,
+        #404040 1px -1px 0, #404040 -1px 1px 0;
+    }
+
+    .formCard:nth-of-type(2) .cardTitle{
+        color: #ABF990;
+        text-shadow: #404040 1px 1px 0, #404040 -1px -1px 0,
+        #404040 1px -1px 0, #404040 -1px 1px 0;
+    }
+
+    .descContainer {
+        display: none;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 90px;
+    }
+
+    .border {
+        padding: 0;
+        border: none;
+        background-color: #E5E5E5;
+    }
+
+    .imgMob {
+        display: block;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .cardInput {
+        border: 1px solid #404040;
+        padding: 13px;
+        border-radius: 4px;
+        background-color: #F9F2B2;
+
+        font-family: "Old Car";
+        line-height: 18px;
+        color: #691CFF;
+    }
+    .checkContainer {
+        margin-bottom: 20px;
+    }
+
+    .persData {
+        margin-bottom: 40px;
+    }
+
+    .imgMob:first-of-type {
+        margin-top: 25px;
+    }
+
+    .formCard {
+        background-color: #E5E5E5;
+    }
+
+    .formCard:not(:last-child) {
+        border: 1px solid #691CFF;
+        padding: 16px;
+        margin-bottom: 40px;
+    }
+
+    formCard:last-child {
+        border: none;
+    }
+
+    .cardInput:nth-of-type(3) {
+        margin-bottom: 24px;
+    }
+}
+
+
+
+
+
+
+
+

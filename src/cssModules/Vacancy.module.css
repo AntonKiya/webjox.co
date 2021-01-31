@@ -1,0 +1,27 @@
+.wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+
+@media screen and (max-width: 1440px){
+    .wrapper{
+        max-width: 84vw;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .wrapper {
+        min-width: 90vw;
+    }
+
+   .cards {
+       grid-template-columns: repeat(1, 1fr);
+       grid-gap: 40px;
+   }
+}

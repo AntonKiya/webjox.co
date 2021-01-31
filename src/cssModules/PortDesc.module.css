@@ -1,0 +1,14 @@
+
+.portDescItem {
+    padding: 16px 40px;
+    background-color: #404040;
+    border-radius: 57px;
+}
+
+.portDescContent {
+    font-family: "Old Car";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

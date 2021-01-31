@@ -1,0 +1,25 @@
+.card_title {
+    font-family: "Old Car";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    padding-bottom: 20px;
+    color: #404040;
+}
+
+@media screen and (max-width: 1440px){
+    .card_title{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .card_title{
+        color: #404040 !important;
+        font-family: "Old Car Bold";
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 0;
+        margin-bottom: 87%;
+    }
+}

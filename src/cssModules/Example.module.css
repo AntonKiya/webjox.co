@@ -1,0 +1,172 @@
+.exItem {
+    max-width: 700px;
+    min-width: 700px;
+    margin-right: 100px;
+}
+
+.exContent {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.exTitle {
+    font-family: "Old Car Bold";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #404040;
+    display: inline-block;
+    margin-bottom: 49px;
+
+}
+.exTitleMob {
+    display: none;
+}
+
+.exImg {
+    margin-right: 40px;
+}
+
+.exDescTitle {
+    font-family: "Old Car";
+    font-size: 17px;
+    line-height: 25px;
+    color: #404040;
+    margin-bottom: 17px;
+}
+
+.exDesc {
+    font-family: "Old Car";
+    font-size: 17px;
+    line-height: 25px;
+    color: #404040;
+}
+
+.brifButton {
+    display: none;
+}
+
+.brif {
+    background: url("../images/arrow.svg") no-repeat right center;
+    display: inline-block;
+    bottom: 0;
+    padding-top: 5px ;
+}
+
+.card_link {
+    font-family: "Old Car";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #691CFF;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #404040;
+}
+
+@media screen and (max-width: 1440px){
+
+    .exItem {
+        max-width: 550px;
+        min-width: 550px;
+        margin-right: 65px;
+        border-radius: 4px;
+    }
+
+    .exContent {
+        margin-bottom: 40px;
+    }
+
+    .exImg {
+        width: 18vw;
+        height: 25vh;
+    }
+
+    .exTitle {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .exDescTitle {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .exDesc {
+        font-size: 14px;
+    }
+
+    .exTitleMob {
+        display: none;
+    }
+
+    .card_link {
+        font-size: 18px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .exImg {
+        width: 100%;
+        height: 147px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+    }
+
+    .exContent {
+        display: grid;
+        margin-bottom: 20px;
+    }
+
+    .exItem {
+        padding: 16px;
+        max-width: 90vw;
+        min-width: 90vw;
+        margin-right: 0;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+    .exTitle {
+        font-size: 17px;
+        line-height: 25px;
+        display: none;
+        margin-bottom: 14px;
+    }
+
+    .exDescTitle {
+        margin-bottom: 14px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .exDesc {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .exTitleMob {
+        display: block;
+    }
+
+    .brif {
+        display: none;
+    }
+    .brifButton {
+        display: block;
+        width: 100%;
+        border: none;
+        background: #691CFF;
+        color: white;
+        padding: 13px 0px;
+        font-family: "Old Car Bold";
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+}
